@@ -3,17 +3,13 @@ Este foi o meu primeiro projeto prático de desenvolvimento web, onde construí 
 
 🔧 Tecnologias utilizadas:
 •HTML5
-
 •CSS3 
 
 📚 Principais aprendizados:
 •Criação de layouts estáticos
-
 •Uso de tags semânticas para melhorar a acessibilidade e SEO
-
 •Estilização com CSS e organização em classes reutilizáveis
-
 •Responsividade básica para diferentes tamanhos de tela (Media queries)
 
 📌 Objetivo da página:
-A landing page foi pensada como uma vitrine para um serviço fictício (ou real, se você quiser inserir), com seções como cabeçalho, chamada principal, benefícios, depoimentos e rodapé.
+A landing page foi pensada como uma vitrine para um serviço fictício (ou real, se você quiser inserir), com seções como header, aside, table, fieldset e footer, além do uso de CSS para dar vida e cor ao projeto.
