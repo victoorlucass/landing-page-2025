@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokas Info</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+
+</head>
+
+<body>
+    <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button">
+    <label class="close-menu-label" for="close-menu" title="close menu"></label>
+    <aside class="menu white-bg">
+        <div class="main-content menu-content">
+            <h1 onclick="getElementById('close-menu').checked = false;"><a href="#inicio">PokasInfo</a></h1>
+            <nav>
+                <ul onclick="getElementById('close-menu').checked = false;">
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#serviços">Serviços</a></li>
+                    <li><a href="#galeria">Galeria</a></li>
+                    <li><a href="#preços">Preços</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </aside>
+
+    <div class="menu-spacing"></div>
+
+    <section id="inicio" class="intro main-bg section">
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+                <h2>Seu PC é campeão mundial em te tirar do sério?</h2>
+                <p class="p1-color">PokasInfo: sua dor de cabeça, nossa missão!</p>
+            </div>
+            <div class="intro-img">
+                <img id="valutboy" src="/img/pngegg.png">
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre" class="gray-bg section">
+        <div class="main-content sobre-content">
+            <h3> Sobre a PokasInfo</h3>
+            <br><br>
+
+            <p>Desde 2006, a PokasInfo é referência em assistência técnica em Natal, RN. Com 18 anos de experiência,
+                oferecemos soluções personalizadas e eficientes para conserto de notebooks, desktops, MacBooks e
+                copiadoras laser.</p>
+
+            <p>Atendemos marcas como Dell, Acer, Lenovo, HP, Brother e Apple, sempre com peças de qualidade e
+                profissionais capacitados. Nosso diferencial está no atendimento ágil, na transparência e na satisfação
+                dos clientes, refletida nas avaliações nota 5 no Google.</p>
+
+            <p>Confie na PokasInfo para manter seus equipamentos em perfeito funcionamento. Entre em contato e
+                experimente nossa excelência em serviços de informática!</p>
+        </div>
+    </section>
+
+    <section id="serviços" class="grid-one main-bg section">
+        <div class="main-content grid-one-content">
+            <h4>Serviços</h4>
+            <br><br>
+            <div class="grid">
+                <article>
+                    <h4>Limpeza</h4>
+                    <p>Oferecemos serviços profissionais de limpeza interna e externa de computadores, notebooks e
+                        periféricos. A higienização regular dos equipamentos ajuda a prevenir superaquecimento, melhora
+                        o desempenho e prolonga a vida útil dos componentes.</p>
+                </article>
+                <article>
+                    <h4>Montagem</h4>
+                    <p>Montamos computadores sob medida, de acordo com a sua necessidade — seja para uso doméstico,
+                        escritório, estudos, games ou produção profissional. Garantimos a correta instalação de todos os
+                        componentes (processador, memória, HD/SSD, placa-mãe, placa de vídeo, etc.), com organização
+                        interna, teste de funcionamento e otimização do sistema.</p>
+                </article>
+                <article>
+                    <h4>Formatação</h4>
+                    <p>Realizamos a formatação completa do seu computador ou notebook, com reinstalação do sistema
+                        operacional, drivers atualizados e otimização de desempenho. Removemos vírus, arquivos
+                        desnecessários e corrigimos lentidões, deixando o sistema limpo, rápido e pronto para uso.
+                        Também oferecemos backup de arquivos importantes antes da formatação, garantindo segurança e
+                        tranquilidade.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="galeria" class="grid-one gray-bg section">
+        <div class="main-content grid-one-content">
+            <h5>Galeria</h4>
+                <br><br>
+                <div class="grid">
+                    <div class="gallery-img">
+                        <img src="/img/20240501_220622.jpg" alt="computador">
+                    </div>
+                    <div class="gallery-img">
+                        <img src="/img/20220613_232313.jpg" alt="placa mãe">
+                    </div>
+                    <div class="gallery-img">
+                        <img src="/img/20230928_202243.jpg" alt="gabinete">
+                    </div>
+                    <div class="gallery-img">
+                        <img src="/img/20250630_173031.jpg" alt="gabinete">
+                    </div>
+                    <div class="gallery-img">
+                        <img src="/img/pokas.png" alt="gabinete">
+                    </div>
+                    <div class="gallery-img">
+                        <img src="/img/20240716_182317.jpg" alt="gabinete">
+                    </div>
+                </div>
+        </div>
+    </section>
+
+    <section id="preços" class="gray-bg section">
+        <div class="main-content sobre-content">
+            <div class="responsive-table"></div>
+            <h5>Tabela de preços</h5>
+            <br><br>
+            <table>
+                <caption></caption>
+                <thead>
+                    <tr>
+                        <th>Serviços</th>
+                        <th>Preços</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Orçamento</td>
+                        <td>Gratuito</td>
+                    </tr>
+                    <tr>
+                        <td>Limpeza + Troca de pasta térmica</td>
+                        <td>R$ 150</td>
+                    </tr>
+                    <tr>
+                        <td>Troca de Pasta térmica</td>
+                        <td>R$ 40</td>
+                    </tr>
+                    <tr>
+                        <td>Formatação sem Backup</td>
+                        <td>R$ 70</td>
+                    </tr>
+                    <tr>
+                        <td>Formatação com Backup</td>
+                        <td>R$ 100</td>
+                    </tr>
+                    <tr>
+                        <td>Atualização de BIOS</td>
+                        <td>R$ 50</td>
+                    </tr>
+                    <tr>
+                        <td>Montagem/ Desmontagem</td>
+                        <td>R$ 150</td>
+                    </tr>
+                    <tr>
+                        <td>Limpeza de placa de vídeo + Troca de pasta térmica + Troca de thermalpads</td>
+                        <td>R$ 150</td>
+                    </tr>
+                    <tr>
+                        <td>Clonagem de SSD e HD</td>
+                        <td>R$ 70</td>
+                    </tr>
+                    <tr>
+                        <td>Otimização de Windows</td>
+                        <td>R$ 50</td>
+                    </tr>
+                </tbody>
+
+            </table>
+        </div>
+        </div>
+    </section>
+
+    <section id="contato" class="main-bg section">
+
+        <div class="contact-form main-content">
+            <fieldset class="form-grid">
+                <legend>Contato</legend>
+                <div class="form-group">
+                    <label for="first-name">Nome</label>
+                    <input type="text" name="first-name" id="first-name" placeholder="Seu nome">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Seu email">
+                </div>
+                <div class="form-group">
+                    <label for="telefone">Telefone</label>
+                    <input type="number" name="telefone" id="telefone" placeholder="Seu número de telefone">
+                </div>
+                <div class="form-group full-width">
+                    <label for="mensagem">Mensagem</label>
+                    <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Sua mensagem"></textarea>
+                </div>
+                <div class="form-group full-width">
+                    <button type="submit">Enviar mensagem</button>
+                </div>
+            </fieldset>
+        </div>
+    </section>
+
+    <footer id="footer" class="white-bg footer">
+        <p><a id=tremer target="_blank" href="https://www.linkedin.com/in/victor-lucas-7a195a21a/">Desenvolvido por
+                Victor Lucas 🗻</a></p>
+    </footer>
+
+    <a class="back-to-top" href="#">⮝</a>
+</body>
+
+</html>
