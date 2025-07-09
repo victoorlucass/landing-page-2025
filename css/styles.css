@@ -446,6 +446,7 @@ body .full-width {
 }
 
 .back-to-top {
+    font-family: 'Segoe UI Symbol', 'Arial Unicode MS', 'Noto Sans Symbols', sans-serif;
     position: fixed;
     bottom: 2rem;
     right: 2rem;
